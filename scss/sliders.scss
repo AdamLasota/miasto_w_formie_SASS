@@ -1,0 +1,21 @@
+%mainContainer_sliders{
+  margin-top:96px;
+  margin-left:auto;
+  margin-right:auto;
+  width:100%;
+  display:block;
+  height:50%;
+  border-top-style:solid;
+  border-top-width:1px;
+  border-top-color:#EBEBEB;
+  padding-top:0px;
+  overflow: hidden;
+  position: relative;
+}
+%slide_image{
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  padding: 3% 0px 0px 0px;
+  position: relative;
+  height:100%;
+}

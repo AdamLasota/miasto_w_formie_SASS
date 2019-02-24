@@ -1,0 +1,119 @@
+@import 'variables';
+%event_boxes {
+	margin-top:28px;
+	margin:$center_object;
+	max-width:932px;
+	display:flex;
+	justify-content: space-between;
+	height:auto;
+}
+%event_box {
+	display:flex;
+	flex-direction:column;
+	max-width:304px;
+	max-height:304px;
+	background:#FFDA1A;
+	cursor:pointer;
+	margin:$center_object;
+  flex:0 0 30%;
+}
+%discription_box{
+  display:block;
+  width:100%;
+  height:40%;
+  position:absolute;
+  z-index:2;
+  top:60%;
+  bottom:0;
+  overflow:hidden;
+  padding:0;
+  transition:0.5s ease;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.30) 25%,rgba(0,0,0,0.7) 100%)
+}
+%discription_box_search{
+	display:block;
+	width:100%;
+	height:53%;
+	position:absolute;
+	z-index:2;
+	top:47%;
+	bottom:0;
+	overflow:hidden;
+	padding:0;
+	transition:1s ease;
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(255,218,26,0.30) 15%,rgba(255,218,26,0.7) 100%)
+}
+%discription_box_search_img{
+	display:block;
+	width:70px;
+	height:70px;
+	margin-bottom:-50px;
+	margin-top:0;
+	margin-left:26px;
+	transition:0.7s;
+}
+%date_event{
+display:block;
+margin-left:28px;
+margin-top:15px;
+margin-bottom:5px;
+opacity: 0.8;
+font-family: $normal_font;
+font-size: 18px;
+color: #FFFFFF;
+letter-spacing: 0;
+line-height: 23px;
+}
+%title_event{
+  display:block;
+  padding-left:28px;
+  width:273px;
+  font-family: $bold_font;
+  font-size: 25px;
+  font-weight:700;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  margin-top:-6%;
+  margin-bottom:5%;
+  line-height:25px;
+}
+%icons {
+	margin-top:-5%;
+	margin-left:9%;
+	float:left;
+	display:block;
+}
+%icons_span {
+	font-family: $normal_font;
+	font-size: 14px;
+	color: #FFDA1A;
+}
+%hide_container{
+	position:absolute;
+	width:100%;
+	height:57%;
+	bottom:0%;
+	opacity:0;
+	transition:1s;
+}
+%button_event {
+	position:absolute;
+	display:block;
+	bottom:5%;
+	right:10%;
+	width: 100px;
+	height:30px;
+	float:right;
+	background:#FFDA1A;
+	border-style:solid;
+	border-color:#FFDA1A;
+	border-radius:100px;
+	font-family: Lato-Bold;
+	font-size: 12px;
+	color: #2D5898;
+	letter-spacing: 0.5px;
+	text-transform:uppercase;
+	transition:0.3s;
+	box-shadow:none;
+	opacity:0;
+}

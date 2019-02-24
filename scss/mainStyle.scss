@@ -1,0 +1,36 @@
+@import 'variables';
+
+%navigate {
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  color: #9B9B9B;
+  letter-spacing: 0.5px;
+  padding-bottom: 2px;
+  background: linear-gradient(currentColor, currentColor) bottom / 0 1px no-repeat;
+  transition:0.5s;
+  margin-bottom: 0;
+  line-height: 3px;
+}
+%topic {
+  font-family: Lato-Bold;
+  font-size: 40px;
+  color: #4990E2;
+  letter-spacing: 1.43px;
+  text-transform:uppercase;
+  font-weight: 600;
+  margin-top:0%;
+}
+%discription {
+font-size: 16px;
+color: #000000;
+letter-spacing: 0.57px;
+line-height: 22px;
+width:100%;
+}
+%event_title{
+  font-family: Lato-Light;
+  font-size: 40px;
+  color: #2D5898;
+  letter-spacing: 1.43px;
+  text-transform: uppercase;
+}

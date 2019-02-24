@@ -1,0 +1,38 @@
+%navrwd_main{
+  display:none;
+  width:80%;
+  float:right;
+  margin-right:-50px;
+  margin-top: 4%;
+}
+
+%navrwd_button{
+  color:#d8232a;
+  font-size:40px;
+  transition:0.5s;
+}
+%navrwd_links{
+  display:block;
+  margin-top: 1%;
+  text-decoration:none;
+  font-family: Lato-Black;
+  font-size:14px;
+  font-weight:700;
+  color:#2D5898;
+  text-transform:uppercase;
+  padding:2px 0px;
+  background: linear-gradient(currentColor, currentColor) bottom / 0 2px no-repeat;
+  transition:0.5s;
+  width:100%;
+  border-style:solid;
+  border-width: thin;
+  border-color:#FFDA1A;
+  border-radius:50px;
+  background:#FFFFFF;
+  box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.3);
+}
+%navrwd_links_hover{
+  background:#FFDA1A;
+  color:#d8232a;
+  transition:0.5s;
+}

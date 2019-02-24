@@ -1,0 +1,49 @@
+@import 'variables';
+%contact_box{
+  display:block;
+  position:absolute;
+  max-width: 304px;
+  right:61px;
+  top:193px;
+  border-style: solid;
+  border-color:#DDDDDD;
+  border-width: 4px;
+}
+%title {
+  margin-left: $contact_discription;
+  font-family: Lato-Bold;
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: 0.57px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+%contact_font{
+  display:block;
+  max-width:80%;
+  font-size: 16px;
+  color: #030303;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+%button {
+  display:block;
+  width:80%;
+  margin:$center_object;
+  background:#FFDA1A;
+  border-radius:100px;
+  border-style:solid;
+  border-color:#FFDA1A;
+  transition:0.5s;
+}
+%social {
+  display:block;
+  width:100%;
+  text-align:center;
+  margin-top:18px;
+  padding:0;
+}
+%contact_box_small{
+
+}
